@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_TS|Win32'">
+    <LocalDebuggerCommand>D:\Work\workspace\workspace_visualstudio\language\php\php55dev\vc11\x86\php-5.5.15\Debug_TS\php.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>D:\Work\workspace\workspace_visualstudio\language\php\php55dev\vc11\x86\php-5.5.15\Debug_TS\Zookeeper_Example.php</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

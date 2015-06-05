@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zookeeper", "zookeeper.vcxproj", "{AC2E59BD-B378-4E90-B158-C91186B53C19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_TS|Win32 = Debug_TS|Win32
+		Release_TS|Win32 = Release_TS|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC2E59BD-B378-4E90-B158-C91186B53C19}.Debug_TS|Win32.ActiveCfg = Debug_TS|Win32
+		{AC2E59BD-B378-4E90-B158-C91186B53C19}.Debug_TS|Win32.Build.0 = Debug_TS|Win32
+		{AC2E59BD-B378-4E90-B158-C91186B53C19}.Release_TS|Win32.ActiveCfg = Release_TS|Win32
+		{AC2E59BD-B378-4E90-B158-C91186B53C19}.Release_TS|Win32.Build.0 = Release_TS|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
