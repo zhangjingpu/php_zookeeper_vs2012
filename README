@@ -1,0 +1,31 @@
+This extension is create from php-zookeeper(https://github.com/andreiz/php-zookeeper)
+
+Description
+-----------
+This extension uses libzookeeper library to provide API for communicating with
+ZooKeeper service.
+
+ZooKeeper is an Apache project that enables centralized service for maintaining
+configuration information, naming, providing distributed synchronization, and
+providing group services.
+
+This extension is for windows build, used visual studio 2012
+
+Resources
+---------
+ * [zookeeper](http://hadoop.apache.org/zookeeper/)
+ * [recipes](https://github.com/Gutza/php-zookeeper-recipes)
+ 
+
+DEMO
+----
+$zk = new Zookeeper('localhost:2181');
+var_dump($zk->get('/'));
+var_dump($zk->getChildren('/'));
+var_dump($zk->set('/test123', 'abc'));
+var_dump($zk->get('/test123'));
+var_dump($zk->getChildren('/'));
+
+var_dump($zk->set('/foo/001', 'bar1'));
+var_dump($zk->set('/foo/002', 'bar2'));
+var_dump($zk->getChildren('/foo'));
